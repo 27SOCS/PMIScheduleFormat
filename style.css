@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Cousine:400,400italic,700);
+body {
+  background: #9fa0a3;
+  color: #1e1b13;
+  font-family: "Cousine", monospace;
+  line-height: 1.6;
+  font-size: 120%;
+}
+.container {
+  max-width: 30em;
+  width: 100%;
+  margin: 3em auto;
+  padding: 1em 1.2em 1.2em 2.2em;
+  background: #dbd5d2;
+  border-left: 1em #1e1b13 solid;
+  box-shadow: 0 22px 64px -6px rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+}
+a {
+  text-decoration: none;
+  color: #8d8e93;
+}
+.sub {
+  color: #1e1b13;
+}
+a:hover {
+  color: #7d7e83;
+}
+h1 {
+  font-size: 2em;
+}
+
+@media all and (max-width: 43em) {
+  .container {
+    padding: 0;
+    width: 90%;
+    border-left: none;
+    box-shadow: none;
+    margin: 3em auto;
+  }
+  body {
+    background: #dbd5d2;
+  }
+}
+
+@media all and (max-width: 32em) {
+  body {
+    font-size: 100%;
+  }
+}

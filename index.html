@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>PMI Schedule Formatter</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <script src="index.js"></script>
+  </body>
+
+  <div class="container">
+    <h1>PMI Schedule Formatter</h1>
+    <p>Upload a PMI Schedule file to convert into an Excel file.</p>
+    <input type="file" id="fileToLoad" />
+    <button onclick="loadFileAsText()">Convert and download</button>
+  </div>
+</html>
